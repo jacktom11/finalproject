@@ -2,7 +2,7 @@
 session_start();
 //check session first
 if (!isset($_SESSION['email'])){
-include ('header.php');
+include ('../includes/header.php');
 }else
 {
 include ('header.php');
@@ -15,5 +15,5 @@ they can login and visit the site at any time.
 
 </div>
 <?php
-include ('footer.php');
+include ('../includes/footer.php');
 ?>
