@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 	//include the header
-	include ("header.php");
+	include ("../includes/header.php");
 	require_once ('../mysqli_connect.php');
 	$id=$_GET['id']; 
 	$query = "SELECT * FROM bookmark WHERE id=$id"; 
@@ -30,7 +30,7 @@ if (!isset($_SESSION['email'])){
 	} //end if statement
 	mysqli_close($dbc);
 	//include the footer
-	include ("footer.php");
+	include ("../includes/footer.php");
 }
 ?>
 
