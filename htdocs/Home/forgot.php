@@ -1,6 +1,6 @@
 <?php 
 #code to deal with forgot password
-include ('header.php');
+include ('../includes/header.php');
 
 // Check if the form has been submitted.
 if (isset($_POST['submitted'])) {
@@ -70,5 +70,5 @@ if (isset($_POST['submitted'])) {
 <p>
 
 <?php
-include ('footer.php');
+include ('../includes/footer.php');
 ?>
