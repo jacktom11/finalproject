@@ -1,6 +1,6 @@
 <?php 
 // Include header.php
-include("header.php");
+include("../includes/header.php");
 // Check if the form has been submitted.
 if (isset($_POST['submitted'])) {
 	require_once ('mysqli_connect.php'); // Connect to the db.
@@ -99,5 +99,5 @@ if (!empty($errors)) { // Print any error messages.
 
 <?php
 // Include footer.php
-include("footer.php");
+include("../includes/footer.php");
 ?>
