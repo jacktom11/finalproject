@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 	//include the header
-	include ('header.php');
+	include ('../includes/header.php');
 	require_once ('../mysqli_connect.php');
 	echo ("<html><title>Search Results</title><center>"); 
 	echo ("<a href=searchform.php>Another Search</a><p>"); 
@@ -46,7 +46,7 @@ if (!isset($_SESSION['email'])){
 	mysqli_close($dbc); // Close the database connection.
 	echo ("</center></html>"); 
 	//include the footer
-	include ("footer.php");
+	include ("../includes/footer.php");
 }
 
 ?>
