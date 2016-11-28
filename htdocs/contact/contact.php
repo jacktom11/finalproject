@@ -8,12 +8,12 @@ if (!isset($_SESSION['email'])){
 
 	include ("../includes/header.php");
 ?>
-	<p>Khaled Sabha</p>
+	<p>Nounee Yang</p>
 	<p>School of Information Studies</p>
 	<p>Uinversity of Wisconsin - Milwaukee</p>
 	<p>Milwaukee, WI 53211</p>
-	<p>414-229-3881</p>
-	<p>sabha@uwm.edu</p>
+	<p>123-456-7890</p>
+	<p>nounee.uwmsois.com</p>
 <?
 	include ("../includes/footer.php");
 }
