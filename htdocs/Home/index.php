@@ -5,7 +5,7 @@ if (!isset($_SESSION['email'])){
 include ('../includes/header.php');
 }else
 {
-include ('header.php');
+include ('../includes/header.php');
 }
 ?>
 <div id=h2>
