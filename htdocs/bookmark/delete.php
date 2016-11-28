@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 	//include the header
-	include ('../includes/header.php');
+	include ('../../includes/header.php');
 	require_once ('../mysqli_connect.php');
 	$id=$_GET['id']; 
 	$query = "DELETE FROM bookmark WHERE id=$id"; 
