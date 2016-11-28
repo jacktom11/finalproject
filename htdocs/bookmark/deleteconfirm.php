@@ -7,7 +7,7 @@ if (!isset($_SESSION['email'])){
 }else{
 	//include the header
 	include ('../includes/header.php');
-	require_once ('../mysqli_connect.php');
+	require_once ('../../mysqli_connect.php');
 	$id=$_GET['id'];  
 	$query = "SELECT * FROM bookmark WHERE id=$id"; 
 	$result = @mysqli_query ($dbc, $query);
