@@ -1,5 +1,5 @@
 <?
-include ('header.php'); // Include the header file.
+include ('../includes/header.php'); // Include the header file.
 ?>
 
 <h2>Related Links</h2>
@@ -8,5 +8,5 @@ include ('header.php'); // Include the header file.
 <a href="http://www.usatoday.com" target="_blank">USA Today</a><p>
 
 <?
-include ('footer.php'); //Include the footer file.
+include ('../includes/footer.php'); //Include the footer file.
 ?>
