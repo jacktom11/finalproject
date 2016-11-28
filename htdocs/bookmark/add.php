@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 	//include the header
-	include ("header.php");
+	include ("../includes/header.php");
 	require_once ('../mysqli_connect.php'); 
 	if ($_POST['submitted']){
 		$title=$_POST['title']; 
@@ -36,7 +36,7 @@ if (!isset($_SESSION['email'])){
 	</form>
 <?
 	//include the footer
-	include ("footer.php");
+	include ("../includes/footer.php");
 }
 ?>
 
