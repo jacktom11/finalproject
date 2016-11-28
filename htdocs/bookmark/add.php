@@ -7,7 +7,7 @@ if (!isset($_SESSION['email'])){
 }else{
 	//include the header
 	include ("../includes/header.php");
-	require_once ('../mysqli_connect.php'); 
+	require_once ('../../mysqli_connect.php'); 
 	if ($_POST['submitted']){
 		$title=$_POST['title']; 
 		$comment=$_POST['comment']; 
