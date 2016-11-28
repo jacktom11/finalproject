@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 	//include the header
-	include ('header.php');
+	include ('../includes/header.php');
 	require_once ('../mysqli_connect.php');
 	echo ("<center>"); 
 	echo ("<h3>Bookmark</h3><p>");
@@ -82,7 +82,7 @@ if (!isset($_SESSION['email'])){
 		echo '</tr></table>';  //Close the table.
 	}//End of pages links
 	//include the footer
-	include ('footer.php');
+	include ('../includes/footer.php');
 }
 ?>
 
