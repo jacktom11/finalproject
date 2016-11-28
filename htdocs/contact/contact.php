@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 
-	include ("header.php");
+	include ("../includes/header.php");
 ?>
 	<p>Khaled Sabha</p>
 	<p>School of Information Studies</p>
@@ -15,6 +15,6 @@ if (!isset($_SESSION['email'])){
 	<p>414-229-3881</p>
 	<p>sabha@uwm.edu</p>
 <?
-	include ("footer.php");
+	include ("../includes/footer.php");
 }
 ?>
