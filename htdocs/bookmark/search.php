@@ -7,7 +7,7 @@ if (!isset($_SESSION['email'])){
 }else{
 	//include the header
 	include ('../includes/header.php');
-	require_once ('../mysqli_connect.php');
+	require_once ('../../mysqli_connect.php');
 	echo ("<html><title>Search Results</title><center>"); 
 	echo ("<a href=searchform.php>Another Search</a><p>"); 
 	echo ("<a href=index.php>Home</a><p>"); 
