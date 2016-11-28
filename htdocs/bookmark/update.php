@@ -7,7 +7,7 @@ if (!isset($_SESSION['email'])){
 }else{
 	//include the header
 	include ("../includes/header.php");
-	require_once ('../mysqli_connect.php');
+	require_once ('../../mysqli_connect.php');
 	#execute UPDATE statement
 	$id = mysqli_real_escape_string($dbc, $_POST['id']); 
 	$title = mysqli_real_escape_string($dbc, $_POST['title']); 
