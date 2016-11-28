@@ -44,7 +44,7 @@ if (isset($_POST['submitted'])) {
 
 // Begin the page now.
 $page_title = 'Login';
-include ('header.php');
+include ('../includes/header.php');
 if (!empty($errors)) { // Print any error messages.
 	echo '<h1 id="mainhead">Error!</h1>
 	<p class="error">The following error(s) occurred:<br />';
@@ -66,5 +66,5 @@ if (!empty($errors)) { // Print any error messages.
 </form>
 
 <?php
-include ('footer.php');
+include ('../includes/footer.php');
 ?>
