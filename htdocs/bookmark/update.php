@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 	//include the header
-	include ("header.php");
+	include ("../includes/header.php");
 	require_once ('../mysqli_connect.php');
 	#execute UPDATE statement
 	$id = mysqli_real_escape_string($dbc, $_POST['id']); 
@@ -24,7 +24,7 @@ if (!isset($_SESSION['email'])){
 	}
 	mysqli_close($dbc);
 	//include the footer
-	include ("footer.php");
+	include ("../includes/footer.php");
 }
 
 ?>
