@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])){
 	exit();
 }else{
 	//include the header
-	include ("header.php");
+	include ("../includes/header.php");
 ?>
 	<html>
 	<head>
@@ -36,6 +36,6 @@ if (!isset($_SESSION['email'])){
 	</html>
 <?
 	//include the footer
-	include ("footer.php");
+	include ("../includes/footer.php");
 }
 ?>
