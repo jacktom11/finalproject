@@ -19,7 +19,7 @@ if (isset($_POST['submitted'])) {
 		$query = "SELECT * FROM users WHERE email='$e'"; 
 		$result = mysqli_query ($dbc, $query);
 		if (mysqli_num_rows($result)==1) {
-			while ($row=mysql_fetch_array($result)){
+			while ($row=mysqli_fetch_array($result)){
 				$p=$row['pass']; 
 				$u=$row['username']; 
 			}								
@@ -27,12 +27,12 @@ if (isset($_POST['submitted'])) {
 			$to=$e; 
 			$subject="Your final project";
 			$body="
-			Thank you very much for being a member of www.yourfinalproject.com!\n\n
+			Thank you very much for being a member of yourfinalproject\n\n
 			Here is your password information.\n\n
 			Password: ".$p."\n\n
 			Thanks again!\n\n
-			http://www.yourfinalproject.com"; 
-			$headers="From: Your name <yourid@uwm.edu>\n";  // <-- Replace this to your email address!!!
+			http://nounee.uwmsois.com/finalproject-master/htdocs/Home/index.php"; 
+			$headers="From: noreply <noreply@uwm.edu>\n";  // <-- Replace this to your email address!!!
 			mail ($to, $subject, $body, $headers); // SEND the message!  
 
 			// Print a message.
@@ -40,7 +40,7 @@ if (isset($_POST['submitted'])) {
 			<p>Please, check your email to get your username and password.</p>'; 
 
 			// Include the footer and quit the script (to not show the form).
-			include ('footer.php');
+			include ('../includes/footer.php');
 			exit();
 		} else { // Not registered.
 			echo '<font color=red><h4>Error!</h4>
