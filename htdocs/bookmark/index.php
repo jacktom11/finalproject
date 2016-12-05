@@ -9,7 +9,7 @@ if (!isset($_SESSION['email'])){
 	include ('../includes/header.php');
 	require_once ('../../mysqli_connect.php');
 	echo ("<center>"); 
-	echo ("<h3>Bookmark</h3><p>");
+	echo ("<h3>Wishlist</h3><p>");
 	echo ("<a href=add.php>Add a record</a><p>"); 
 	echo ("<a href=searchform.php>Search records</a><p>"); 
 	//Set the number of records to display per page
