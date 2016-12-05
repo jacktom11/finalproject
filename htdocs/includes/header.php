@@ -29,6 +29,7 @@ if (!isset($_SESSION['email'])){
 	echo ("<a href=../Home/index.php>Home</a><p>");
 	echo ("<a href=../bookmark/index.php>My Wishlist</a><p>"); 
 	echo ("<a href=../contact/contact.php>Contact us</a><p>"); 
+	echo ("<a href=../newpage/newpage.php>New Page</a><p>"); 
 } 
 ?>
 
