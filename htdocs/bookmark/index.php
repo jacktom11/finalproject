@@ -43,7 +43,7 @@ if (!isset($_SESSION['email'])){
 	$result = @mysqli_query ($dbc, $query);
 
 	//Table header:
-	echo "<table cellpadding=5 cellspacing=5 border=1><tr>
+	echo "<table class='wishlist' cellpadding=5 cellspacing=5 border=1><tr>
 	<th>Title</th><th>Comment</th><th>URL</th><th>*</th><th>*</th></tr>"; 
 
 	//Fetch and print all the records...
