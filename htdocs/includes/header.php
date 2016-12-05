@@ -1,5 +1,7 @@
-<html><body><center>
-<img src="UWMLogo.jpg" alt="UWM Logo" title="UWM Logo" /><br>
+<html><body>
+<center>
+<img src="../includes/tree.gif" alt="Tree" title="Tree" width="125" height="150"/>
+<br>
 <h1>440 Final Project</h1> <br>
 <Table width="700" cellpadding="10"><tr><td align="right">
 
