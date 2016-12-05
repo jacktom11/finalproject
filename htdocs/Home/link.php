@@ -3,9 +3,9 @@ include ('../includes/header.php'); // Include the header file.
 ?>
 
 <h2>Related Links</h2>
-<a href="http://www.cnn.com" target="_blank">CNN</a><p>
-<a href="http://www.nytimes.com" target="_blank">New York Times</a><p>
-<a href="http://www.usatoday.com" target="_blank">USA Today</a><p>
+<a href="https://www.wishlistr.com" target="_blank">Wishlistr</a><p>
+<a href="https://www.giftster.com" target="_blank">Giftster</a><p>
+<a href="http://wishmindr.com/" target="_blank">Wishmindr</a><p>
 
 <?
 include ('../includes/footer.php'); //Include the footer file.
