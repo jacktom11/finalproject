@@ -29,7 +29,7 @@ if (!isset($_SESSION['email'])){
 	$num = mysqli_num_rows($result);
 	if ($num > 0) { // If it ran OK, display all the records.
 		echo "<p><b>Your search returns $num entries.</b></p>";
-		echo "<table cellpadding=5 cellspacing=5 border=1><tr>
+		echo "<table class='wishlist' cellpadding=5 cellspacing=5 border=1><tr>
 		<th>Title</th><th>Comment</th><th>URL</th><th>*</th><th>*</th></tr>"; 
 		while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
 			echo "<tr><td>".$row['title']."</td>"; 
