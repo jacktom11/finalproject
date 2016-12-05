@@ -1,4 +1,6 @@
-<html><body>
+<html>
+<head><link rel="stylesheet" href="../includes/style.css"></head>
+<body>
 <center>
 <img src="../includes/tree.gif" alt="Tree" title="Tree" width="125" height="150"/>
 <br>
