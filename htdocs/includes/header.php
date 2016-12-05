@@ -27,7 +27,7 @@ if (!isset($_SESSION['email'])){
 	echo ("<a href=../Home/link.php>Links</a>");  
 }else {
 	echo ("<a href=../Home/index.php>Home</a><p>");
-	echo ("<a href=../bookmark/index.php>My Bookmarks</a><p>"); 
+	echo ("<a href=../bookmark/index.php>My Wishlist</a><p>"); 
 	echo ("<a href=../contact/contact.php>Contact us</a><p>"); 
 } 
 ?>
